@@ -1,0 +1,108 @@
+Layoffs Data Exploratory Data Analysis Using SQL
+Project Overview
+
+This project focuses on analyzing a global layoffs dataset using SQL to uncover trends, patterns, and insights related to workforce reductions across companies and industries. The analysis helps understand how layoffs changed over time and which sectors, countries, and companies were most affected.
+
+The project demonstrates practical SQL skills used in real-world data analytics and business intelligence workflows.
+
+Objectives
+
+The main objectives of this project are:
+
+Analyze overall layoff trends
+Identify companies with the highest layoffs
+Discover industries most affected by layoffs
+Compare layoffs across countries
+Track layoffs over time using yearly and monthly analysis
+Identify companies with complete workforce reductions
+Rank companies based on yearly layoffs
+Perform cumulative trend analysis
+Dataset Description
+
+The dataset contains information about layoffs from companies around the world. It includes details such as:
+
+Company name
+Industry
+Country
+Date of layoffs
+Total employees laid off
+Percentage of employees laid off
+Funding raised
+Company stage
+
+The dataset was cleaned and prepared before performing exploratory analysis.
+
+Analysis Performed
+
+The project includes multiple SQL-based analyses to explore the dataset from different perspectives.
+
+Data Inspection
+
+Initial exploration was performed to understand the structure and contents of the dataset.
+
+Maximum Layoff Analysis
+
+The analysis identified:
+
+The highest number of employees laid off in a single event
+The highest layoff percentage recorded
+Complete Company Shutdowns
+
+Companies with 100% layoffs were analyzed to identify businesses that completely shut down operations.
+
+Company-Wise Layoff Analysis
+
+Total layoffs were calculated for each company to identify organizations with the largest workforce reductions.
+
+Industry Analysis
+
+Layoffs were grouped by industry to determine which sectors were impacted the most.
+
+Country Analysis
+
+Layoffs were analyzed country-wise to compare the global impact.
+
+Time-Based Analysis
+
+Layoff trends were explored using:
+
+Daily analysis
+Monthly analysis
+Yearly analysis
+
+This helped identify periods with significant workforce reductions.
+
+Stage-Based Analysis
+
+Companies were analyzed based on their funding or business stage to understand how layoffs varied among startups, public companies, and late-stage organizations.
+
+Rolling Total Analysis
+
+Cumulative layoffs over time were calculated to observe long-term trends and growth in layoffs.
+
+Ranking Analysis
+
+Companies were ranked yearly based on total layoffs using SQL window functions to identify the top affected organizations each year.
+
+SQL Concepts Used
+
+This project demonstrates the use of several important SQL concepts, including:
+
+Aggregate Functions
+Group By Operations
+Sorting and Ordering
+Date Functions
+Common Table Expressions (CTEs)
+Window Functions
+Ranking Functions
+Rolling Calculations
+Partitioning
+Key Insights
+
+Some important insights discovered during the analysis include:
+
+Certain industries experienced significantly larger layoffs than others
+Major technology companies contributed heavily to overall layoffs
+Some companies shut down completely after receiving substantial funding.
+Layoffs increased sharply during specific years and months
+The impact of layoffs varied greatly across countries and company stages
